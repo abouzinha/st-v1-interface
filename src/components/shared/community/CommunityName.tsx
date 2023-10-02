@@ -24,6 +24,7 @@ export default function CommunityName({
   $color,
   $bold
 }: CommunityNameProps) {
+  console.log('oi')
   if (loading && !$larger && !$large) {
     return <SkeletonLoading width={140} height={14} />
   } else if (loading && $large) {
